@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { listarTareas, crearTarea } from '@/metodos/tareas';
-export const runtime = 'nodejs';
+
 
 export async function GET() { // Get para obtener la lista de tareas
   const tasks = await listarTareas(); // llama a la base de datos con la  funcion definida en metodos/tareas

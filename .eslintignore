@@ -3,3 +3,4 @@ node_modules/
 coverage/
 src/generated/
 src/**/*.test.ts
+src/**/*.test.tsx

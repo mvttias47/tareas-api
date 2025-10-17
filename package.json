@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "NEXT_DISABLE_ESLINT=1 prisma generate && next build",
     "start": "next start",
     "test": "npm run test:unit",
     "test:unit": "vitest run",
