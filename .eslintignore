@@ -1,0 +1,5 @@
+node_modules/
+.next/
+coverage/
+src/generated/
+src/**/*.test.ts

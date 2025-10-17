@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import * as prismaModule from '@/lib/prisma'; 
+import * as prismaModule from '../lib/prisma'; 
 import { listarTareas, crearTarea } from './tareas';
 
 describe('metodos/tareas', () => {
