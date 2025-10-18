@@ -13,3 +13,4 @@ coverage/
 # OS / Editor
 .DS_Store
 *.log
+src/generated/
