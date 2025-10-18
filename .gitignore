@@ -1,4 +1,4 @@
-# Node / Next
+# ignoramos archivos y carpetas que se generan automáticamente
 node_modules/
 .next/
 out/
@@ -13,4 +13,3 @@ coverage/
 # OS / Editor
 .DS_Store
 *.log
-src/generated/
