@@ -3,10 +3,11 @@ import { listarTareas, crearTarea } from '@/metodos/tareas';
 
 export const runtime = 'nodejs'; 
 
-const CORS_HEADERS = {
-  'Access-Control-Allow-Origin': '*', 
+const corsHeaders = {
+  'Access-Control-Allow-Origin': process.env.CORS_ORIGIN ?? '*',
   'Access-Control-Allow-Methods': 'GET,POST,OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+  'Access-Control-Max-Age': '86400',
 };
 
 export function OPTIONS() {
