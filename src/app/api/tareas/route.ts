@@ -3,7 +3,7 @@ import { listarTareas, crearTarea } from '@/metodos/tareas';
 
 export const runtime = 'nodejs'; 
 
-const corsHeaders = {
+const CORS_HEADERS = {
   'Access-Control-Allow-Origin': process.env.CORS_ORIGIN ?? '*',
   'Access-Control-Allow-Methods': 'GET,POST,OPTIONS',
   'Access-Control-Allow-Headers': 'Content-Type, Authorization',
